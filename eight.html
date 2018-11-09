@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Condensed" rel="stylesheet">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.cos{
+  height: 900px;
+  margin-left: 75%;
+}
+
+.cos:hover {
+  background-color:#DB7093;
+  transition:3s;
+  transform:rotate(360deg) scale(1.)
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  #293132;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+body {
+  font-family: 'Inconsolata', monospace;
+  color: white;
+    background-color:  #008000 ;
+    text-align: center;
+    font-size: 30px;
+
+  }
+
+
+
+
+.button {
+  font-size:3vw;
+  text-decoration:none;
+  color:white;
+  background-color: #F4A460;
+  padding:.6em;
+  border-radius:.3em;
+  transition:2s;
+  display:inline-block;
+  font-family: 'Inconsolata', monospace;
+  margin-left: 0%;
+  font-size: 35px;
+
+}
+
+.button:hover {
+  background-color:#DB7093;
+  transition:.1s;
+  transform:scale(1.1);
+}
+
+.home{
+  color: white;
+}
+
+
+/* Style the header */
+header {
+    background-color: #008000 ;
+    padding: 45px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+
+}
+
+
+
+article {
+    margin-right: 40%;
+    padding: 20px;
+    background-color: #008000 ;
+    height: 300px;
+
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+
+<h2> 8:05 AM </h2>
+<p> <a class="home" href="file:///C:/Users/julia/Desktop/Julia%20github/hours%20project/home%20page.html">Homepage</a> </p>
+<li><a class="button" href="file:///C:/Users/julia/Desktop/Julia%20github/hours%20project/nine.html">9:26 AM Forward</a></li>
+
+
+
+  <div class="container">
+
+   <h2> <img class="cos" src="pics/IMG01.png" alt=""></h2>
+   <div class="overlay">
+      <div class="text"> I wake up and text my boyfriend good morning. That is the first thing I do every morning. Although I sent the message
+      at eight am, I took the screenshot at 9:05 AM. </div>
+    </div>
+  </div>
+
+  <article>
+    <h1></h1>
+
+
+  </article>
+</section>
+
+
+
+</body>
+</html>

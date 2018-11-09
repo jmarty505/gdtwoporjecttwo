@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Condensed" rel="stylesheet">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.cos{
+  width: 900px;
+  margin-left: 55%;
+
+}
+
+
+body {
+  font-family: 'Inconsolata', monospace;
+  color: white;
+    background-color: #393952 ;
+    text-align: center;
+    font-size: 35px;
+}
+
+.button {
+  font-size:3vw;
+  text-decoration:none;
+  color:black;
+  background-color: #FFFF66;
+  padding:.6em;
+  border-radius:.3em;
+  transition:2s;
+  display:inline-block;
+  font-family: 'Inconsolata', monospace;
+  margin-left: 0%;
+  font-size: 35px;
+
+}
+
+.button:hover {
+  background-color:#DB7093;
+  transition:.1s;
+  transform:scale(1.1);
+}
+
+.buttonp {
+  font-size:3vw;
+  text-decoration:none;
+  color:white;
+  background-color: #8B4513;
+  padding:.6em;
+  border-radius:.3em;
+  transition:2s;
+  display:inline-block;
+  font-family: 'Inconsolata', monospace;
+  margin-left: 0%;
+  font-size: 35px;
+
+}
+
+.buttonp:hover {
+  background-color:#DB7093;
+  transition:.1s;
+  transform:scale(1.1);
+}
+
+
+.home{
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  #293132;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Style the header */
+header {
+    background-color: #393952  ;
+    padding: 45px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    background-image: image( );
+}
+
+
+
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 50%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #393952;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: right;
+    padding: 20px;
+    width: 50%;
+    background-color: #393952 ;
+    height: 300px;
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+<li><a class="buttonp" href="file:///C:/Users/julia/Desktop/Julia%20github/hours%20project/threep.html">3:15 PM </a></li>
+<h2> 4:46 PM </h2>
+<p> <a class="home" href="file:///C:/Users/julia/Desktop/Julia%20github/hours%20project/home%20page.html">Homepage</a> </p>
+<li><a class="button" href="file:///C:/Users/julia/Desktop/Julia%20github/hours%20project/five.html">5:19 PM Forward</a></li>
+
+
+<div class="container">
+
+ <h2> <img class="cos" src="pics/IMG08.jpg" alt=""> </h2>
+ <div class="overlay">
+    <div class="text">  Went back to work and played around with the web collage poster.</div>
+  </div>
+</div>
+
+</body>
+</html>
